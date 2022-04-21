@@ -52,3 +52,15 @@ const contactsList = [
 ]
 
 // Your code goes here
+
+//display all contants 
+
+var elements = document.getElementById('.display_single_contact');
+
+var i
+
+function display_image() {
+  for (i = 0; < element.length; i++) {
+    elements[i].style.flex = "100%";
+  }
+}
